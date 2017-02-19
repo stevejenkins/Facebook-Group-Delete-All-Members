@@ -35,8 +35,7 @@ var deleteAllGroupMembers = (function () {
             var gearWheelIconDiv = adminActions[i];
             var hyperlinksInAdminDialog = gearWheelIconDiv.getElementsByTagName('a');
             var fbMemberId = gearWheelIconDiv.parentNode.parentNode.id.replace('member_','');
-            var fbMemberName = getTextFromElement(gearWheelIconDiv.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getElementsByClassName('fcb')[0]);
- 
+            var fbMemberName = getTextFromElement(gearWheelIconDiv.parentNode.parentNode.parentNode.getElementsByClassName('fcb')[0]); 
             if (excludedFbIds.indexOf(fbMemberId) != -1) {
                 console.log("SKIPPING "+fbMemberName+' ('+fbMemberId+')');
                 continue;
