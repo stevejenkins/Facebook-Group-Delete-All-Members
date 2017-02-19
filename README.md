@@ -13,7 +13,7 @@ The `facebook-delete-all-members.js` file uses Javascript via your web browser t
 
 1. Copy and paste the raw script into a text editor.
 
-1. Edit the line of the script that starts with `var excludedFbIds = ['1234567890'];` and put your Facebook ID number inside the single quotes.
+1. Edit the line of the script that starts with `var excludedFbIds = ['1234567890'];` and put your Facebook ID number inside the single quotes. If you don't do this, the script will *technically* work, but will potentially remove your account from the group.
 
 1. If you have more than one group member you'd like to exclude (i.e. keep in the group after the script is finished), enter it in the `excludedFbIds` array with a comma and its own single quotes, like this: `var excludedFbIds = ['1234567890','987654321'];`. You can enter as many Facebook IDs as you'd like in the array and the script will ignore them.
 
