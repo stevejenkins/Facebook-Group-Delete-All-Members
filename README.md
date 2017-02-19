@@ -43,4 +43,5 @@ If **This user is not a member of the group** pops up, you can ignore it and res
 # Use At Your Own Risk
 I make no warranties about this script. I don't guarantee it will work for you. If it's not working, either you're doing something wrong (see **Troubleshooting** section) or Facebook has changed something. If Facebook changes something, you're out of luck until the script gets updated. You're not paying *anything* for this script, so no whining allowed. :)
 
-
+# Acknowledgements
+The original version of this script is located [here](https://gist.github.com/michaelv). It stopped working after Facebook updated their groups pages, so various fixed versions (including this repo) are now available.
